@@ -15,11 +15,12 @@ tab_mult <- function(n, simple = FALSE) {
   prim_fac <- matrix(rep(1:n, n), n, n, byrow = T)
   sec_fac <- c(1:n)
   result <- prim_fac * sec_fac
+  completo <- paste(prim_fac, "X", sec_fac, "=", result)
 
   if(simple) {
     return(result)
   } else {
-    return(matrix(paste(prim_fac, "X", sec_fac, "=", result), n, n, byrow = T))
+    return(matrix(completo, n, n, byrow = T))
   }
 
 }
