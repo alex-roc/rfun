@@ -4,10 +4,12 @@
 \alias{tab_mult}
 \title{Crea una tabla de multiplicar}
 \usage{
-tab_mult(n)
+tab_mult(n, simple = FALSE)
 }
 \arguments{
-\item{n}{numeric}
+\item{n}{(numeric) Hasta qué número se creará la tabla}
+
+\item{simple}{(boolean) Solo resultado simple. Falso por defecto}
 }
 \value{
 matrix
@@ -17,4 +19,5 @@ Crea una tabla de multiplicar
 }
 \examples{
 tab_mult(10)
+tab_mult(5, simple = TRUE)
 }

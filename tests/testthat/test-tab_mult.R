@@ -1,3 +1,3 @@
 test_that("tabl_mult() crea tabla de multiplicación", {
-  expect_equal(c(tab_mult(1)), 1)
+  expect_equal(dim(tab_mult(5))[1], 5)
 })
