@@ -20,7 +20,7 @@ tab_mult <- function(n, simple = FALSE) {
   if(simple) {
     return(result)
   } else {
-    return(matrix(completo, n, n, byrow = T))
+    return(matrix(completo, n, n))
   }
 
 }
