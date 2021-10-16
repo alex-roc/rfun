@@ -4,12 +4,14 @@
 \alias{tab_mult}
 \title{Crea una tabla de multiplicar}
 \usage{
-tab_mult(n, simple = FALSE)
+tab_mult(n, simple = FALSE, bonita = TRUE)
 }
 \arguments{
 \item{n}{(numeric) Hasta qué número se creará la tabla}
 
 \item{simple}{(boolean) Solo resultado simple. Falso por defecto}
+
+\item{bonita}{(boolean) Si la tabla que se imprime debe tener formato. Verdadero por defecto}
 }
 \value{
 matrix

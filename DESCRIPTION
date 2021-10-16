@@ -13,6 +13,7 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: 
+    knitr,
     assertive
 URL: https://github.com/alex-roc/rfun
 BugReports: https://github.com/alex-roc/rfun/issues
