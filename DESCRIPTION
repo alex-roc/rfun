@@ -14,6 +14,7 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     knitr,
-    assertive
+    assertive,
+    stringr
 URL: https://github.com/alex-roc/rfun
 BugReports: https://github.com/alex-roc/rfun/issues

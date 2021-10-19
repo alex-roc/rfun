@@ -1,0 +1,29 @@
+{
+	"binom": "2x^2yz + 4xy^2z",
+	"op": "+",
+	"ter_1": {
+		"ter": "2x^2yz",
+		"pot": "x^2",
+		"pot_des": ["x", "x"],
+		"var": ["x", "x", "y", "z"],
+		"coef": [2],
+		"coef_fac": [2],
+		"fac": [2, "x", "x", "y", "z"]
+	},
+	"ter_2": {
+		"ter": "4xy^2z",
+		"pot": "y^2",
+		"pot_des": ["y", "y"],
+		"var": ["x", "y", "y", "z"],
+		"coef": [4],
+		"coef_fac": [2, 2],
+		"fac": [2, 2, "x", "y", "y", "z"]
+	},
+	"binom_fac": {
+		"com_fac": [2],
+		"com_var": ["x", "y", "z"],
+		"rest_1": ["x"],
+		"rest_2": [2, "y"],
+		"result": "2xyz(x + 2y)"
+	}
+}
